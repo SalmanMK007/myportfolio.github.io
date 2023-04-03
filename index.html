@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/media-768.css">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> -->
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;500&family=Bebas+Neue&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div id="hero" class="navbar fixed-top affix">
+        <div class="img_bg">
+            <img src="img/hero-bg.webp" alt="">
+        </div>
+        <div id="full-nav" >
+            <div class="container row nav">
+                <img src="logo.webp" alt="" class="logo_img">
+    
+                <div id="toggleMenu" class="toggleMenu"></div>
+    
+                <nav id="navigation" class="navigation row  ">
+                    <ul class="pri-list row">
+                        <li><a href="">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <ul class="sec-list row cv">
+                        <li><a href="CV.pdf">My resume</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="container content">
+            
+            <div class="main_text">
+                <h4>Hello, It's Me </p>
+                <h3>M.Salman </h3>
+                <h4>And I'm a <span class="multiple_text"></span></h4>
+            </div>
+            <img title="Muhammad Salman" class="salman_img2" src="img/salman.webp" alt="">
+        </div>
+
+        <div class="widget">
+            <div class="widget_item">
+                <h2>03</h2>
+                <p>Happy Clients</p>
+            </div>
+            <div class="widget_item">
+                <h2>520</h2>
+                <p>Project Completed</p>
+            </div>
+            <div class="widget_item" style="border-right: none;">
+                <h2>01</h2>
+                <p>Awards Won</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- about start  -->
+    <div class=" about_me" id="about">
+        <div class="about_header">
+            <h1>About Me</h1>
+        </div>
+
+        <div class="container about_content">
+            <div class="img aboutimg">
+                <img src="img/about.webp" alt="">
+            </div>
+
+            <div class="about_text">
+                <H2>
+                    UI/UX & Front End Developer
+                </H2>
+                <p>As a UI/UX and Front End Developer, I would design and implement website and application user
+                    interfaces
+                    and
+                    user experience. This can include tasks such as creating wireframes and mockups, writing HTML, CSS,
+                    and
+                    JavaScript code, and testing and iterating on designs to ensure they are user-friendly and visually
+                    appealing.</p>
+                <button class="about-btn">Read more</button>
+            </div>
+        </div>
+    </div>
+    <!-- about end  -->
+
+    <!-- services start  -->
+    <div class=" services" id="services">
+        <div class="services_header">
+            <h1>My Services</h1>
+        </div>
+        <div id="card" class="container">
+            <div class="services_card">
+                <img class="icon" src="img/services/icon.png" alt="">
+                <h2>UI/UX Design</h2>
+                <p>UI/UX design is the process of creating a user interface or user experience that serves all
+                    stakeholders, meets their needs, and achieves their goals.</p>
+            </div>
+            <div class="services_card">
+                <img class="icon" src="img/services/icon2.png" alt="">
+                <h2>Graphic Design</h2>
+                <p>We offer high quality graphic design services, with a modern design aesthetic and a focus on user
+                    experience. Find out how we can help you expand your brand through print.</p>
+            </div>
+            <div class="services_card">
+                <img class="icon" src="img/services/icon3.png" alt="">
+                <h2>Front End Developer</h2>
+                <p>I'm a Front End Developer specializing in website design and development. My Two years of experience
+                    have provided a solid foundation for my current role, but I'm eager to expand my knowledge by
+                    learning new technologies, frameworks and languages.</p>
+            </div>
+        </div>
+    </div>
+    <!-- services end -->
+
+
+    <!-- portfolio start -->
+    <div id="portfolio">
+        <div class="portfolio_header">
+            <h1>My Portfolio</h1>
+        </div>
+        <div class="tabs">
+            <ul>
+                <li><a href="#" class="btn btn-active" data-filter="UI">UI/UX</a></li>
+                <li><a href="#" class="btn" data-filter="GD">Graphic Designs</a></li>
+                <li><a href="#" class="btn" data-filter="web">Web</a></li>
+            </ul>
+        </div>
+        <!-- start of portfolio-card  -->
+        <section class="slide-container web">
+            <div class="container swiper">
+
+                <div class="slide-content ">
+                    <!-- <div class="card-wrapper swiper-wrapper"> -->
+                    <div id="card2" class="container card-wrapper swiper-wrapper">
+
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/web/Calculator.jpg" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>Calculator</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>Calculate, display and print your values with the Calculator object. It's easy to use, pretty and has lots of features.</P>
+                            </div>
+                            <div class="read_more"><a href="WebProject/calculator-2/Index.html" target="_blank">Read
+                                    more</a></div>
+                        </div>
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/web/CommentMassge.jpg" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>Comment Massage</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>I design a Comment Massage app in JavaScript, that is good for all age people. The app can help you to communicate with your friends and family easily on the go.</P>
+                            </div>
+                            <div class="read_more"><a href="WebProject/comment-massge/" target="_blank">Read more</a>
+                            </div>
+                        </div>
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/web/Calculator2.jpg" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>Calculator 2</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>Calculate, display and print your values with the Calculator object. It's easy to use, pretty and has lots of features.</P>
+                            </div>
+                            <div class="read_more"><a href="WebProject/calculator/Index.html" target="_blank">Read
+                                    more</a></div>
+                        </div>
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/web/RandomColor.jpg" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>Random Color Generator<h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>This app includes a button that, when clicked, generates a random hex color code and applies it as the background color of the page. It also displays the hex code in the heading so that the user can see what the generated color is.</P>
+                            </div>
+                            <div class="read_more"><a href="WebProject/random-color/Index.html" target="_blank">Read
+                                    more</a></div>
+                        </div>
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/web/ImageSlider.jpg" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>Image Slider</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>I creat a Image Slider Using HTML CSS JavaScript with Autoplay and Loop slider, Create JavaScript Image slider with Loop and Auto play.</P>
+                            </div>
+                            <div class="read_more"><a href="WebProject/image-slider/Index.html" target="_blank">Read more</a></div>
+                        </div>
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/web/UniteConverter.jpg" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>Unite Converter</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>we have a form with two input fields, one for the value we want to convert and another for the unit we want to convert from. We also have a select field for the unit we want to convert to and a button to trigger the conversion.</P>
+                            </div>
+                            <div class="read_more"><a href="WebProject/feet-and-inches-Unit-Converter/Index.html"
+                                    target="_blank">Read more</a></div>
+                        </div>
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/web/Counter.jpg" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>Counter</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>I design a time and date Counter app in javaScript. This counter is simple and easy to use. It can be used as a timer while playing games, run tests, work and open application at the same time.</P>
+                            </div>
+                            <div class="read_more"><a href="WebProject/Counter/Index.html" target="_blank">Read more</a>
+                            </div>
+                        </div>
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/web/Notepad.jpg" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>Notepad in JS</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>I design a Notepad app in JavaScript that you use for writing notes or letters.</P>
+                            </div>
+                            <div class="read_more"><a href="WebProject/NotePad/Index.html" target="_blank">Read more</a>
+                            </div>
+                        </div>
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/web/testimonialsSlider.jpg" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>Testimonials Slider</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>I have made Testimonials with a sliding feature. When you click on the nav button, it slides right or left and I have also added pagination. To make this Testimonial I have used HTML CSS and Js.</P>
+                            </div>
+                            <div class="read_more"><a href="WebProject/testimonials-slider/" target="_blank">Read more</a></div>
+                        </div>
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/web/SearchBar.jpg" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>Search Bar</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>How to create a search bar and also how to avoid the common pitfalls of a search bar. A search bar is something that nearly every application needs at some point, and luckily creating one is surprisingly easy.</P>
+                            </div>
+                            <div class="read_more"><a href="WebProject/search-project/Index.html" target="_blank">Read more</a></div>
+                        </div>
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/web/QuizApp.jpg" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>Quiz App</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>I built a quiz application using JavaScript. We will also be styling the entire application using modern styling practices.</P>
+                            </div>
+                            <div class="read_more"><a href="WebProject/Quiz/Index.html" target="_blank">Read more</a>
+                            </div>
+                        </div>
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/web/PasswordGenerater.jpg" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>Auto Password Generater</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>Random Password Generator with JavaScript is a simple JavaScript application that automatically generates passwords. This type of application uses a variety of numbers, symbols, letters, etc. to create solid and strong passwords.</P>
+                            </div>
+                            <div class="read_more"><a href="WebProject/PasswordGenerator/Index.html" target="_blank">Read more</a></div>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <div class="swiper-button-next swiper-btn"></div>
+                <div class="swiper-button-prev swiper-btn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="slide-container GD">
+            <div class="container swiper">
+                <div class="slide-content ">
+                    <!-- <div class="card-wrapper swiper-wrapper"> -->
+                    <div id="card2" class="container card-wrapper swiper-wrapper">
+
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/graphic/g1.webp" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>Independence Day of Pakistan</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>Independence Day of Pakistan is celebrated every year on August 14. It is one of the most memorable days in the history of Pakistan.</P>
+                            </div>
+                            <div class="read_more"><a href="https://www.behance.net/salmanmsd" target="_blank">Read more</a></div>
+                        </div>
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/graphic/g2.webp" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>World First Aid Day</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>World First Aid Day is a worldwide observance to get us all thinking about the importance of first aid skills and how to use them in an emergency.</P>
+                            </div>
+                            <div class="read_more"><a href="https://www.behance.net/salmanmsd" target="_blank">Read more</a></div>
+                        </div>
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/graphic/g3.webp" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>Chilli Reaper Buns</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>The Chili Reaper Buns are a unique twist on the original chhatri buns.</P>
+                            </div>
+                            <div class="read_more"><a href="">Read more</a></div>
+                        </div>
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/graphic/g6.webp" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>Chicken Biryani</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>Biryani is known for its aroma and flavor. Fresh herbs, saffron, and basmati rice give it a sweet-floral aroma that hits the nose before you taste it.</P>
+                            </div>
+                            <div class="read_more"><a href="https://www.behance.net/salmanmsd" target="_blank">Read more</a></div>
+                        </div>
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/graphic/g7.webp" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>World No Tobacco Day</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>The Harmful Effects of Tobacco Use. Cigarette smoking leads to disease and disability and harms nearly every organ of the body. Smoking causes cancer, heart disease, stroke, lung diseases etc.</P>
+                            </div>
+                            <div class="read_more"><a href="https://www.behance.net/salmanmsd" target="_blank">Read more</a></div>
+                        </div>
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/graphic/g8.webp" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>Youm-e-Takbir</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>Youm-e-Takbir (Urdu: یومِ تکبیر; lit. The day of greatness) is celebrated as a national day in Pakistan on May 28 in commemoration of Chagai-I and Chagai-II series of nuclear tests.</P>
+                            </div>
+                            <div class="read_more"><a href="">Read more</a></div>
+                        </div>
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/graphic/g9.webp" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>Congratulation to Pakistan</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>Congratulations to the Pakistan Olympic Sport Team, who competed for the first time in Olympic history at this year’s games.</P>
+                            </div>
+                            <div class="read_more"><a href="https://www.behance.net/salmanmsd" target="_blank">Read more</a></div>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <div class="swiper-button-next swiper-btn"></div>
+                <div class="swiper-button-prev swiper-btn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="slide-container UI">
+            <div class="container swiper">
+                <div class="slide-content ">
+                    <!-- <div class="card-wrapper swiper-wrapper"> -->
+                    <div id="card2" class="container card-wrapper swiper-wrapper">
+
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/UI/u1.webp" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>Healthcare for faimly's Health</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>Design a simple and functional Health website for Doctors, Nurses and other Workers in Healthcare industry.</P>
+                            </div>
+                            <div class="read_more"><a href="https://www.behance.net/salmanmsd" target="_blank">Read more</a></div>
+                        </div>
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/UI/u2.webp" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>Translater apps</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>I design translation apps using professional translation tools and I am really confident in my work. I will try my best to provide the best translation for you.</P>
+                            </div>
+                            <div class="read_more"><a href="https://www.behance.net/salmanmsd" target="_blank">Read more</a></div>
+                        </div>
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/UI/u3.webp" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>UI/UX</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>I will work to design a mobile UI/UX from scratch, and I specialize in creating intuitive and responsive interfaces for Android phones, as well as iPhone iOS.</P>
+                            </div>
+                            <div class="read_more"><a href="https://www.behance.net/salmanmsd" target="_blank">Read more</a></div>
+                        </div>
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/UI/u4.webp" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>University Website</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>I design a good website for a university. It is interactive, clear and easy to use. The info on the website is also accurate.</P>
+                            </div>
+                            <div class="read_more"><a href="https://www.behance.net/salmanmsd" target="_blank">Read more</a></div>
+                        </div>
+                        <div class="portfolio_card  swiper-slide">
+                            <div class="portfolio_img">
+                                <img class="pf_img" src="img/slider-img/UI/u5.webp" alt="">
+                            </div>
+                            <div class="pf_card_head">
+                                <h2>School App</h2>
+                            </div>
+                            <div class="pf_card_desc">
+                                <P>I can design a mobile application for your business. My work is at a professional level and I am very serious about my work.</P>
+                            </div>
+                            <div class="read_more"><a href="https://www.behance.net/salmanmsd" target="_blank">Read more</a></div>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <div class="swiper-button-next swiper-btn"></div>
+                <div class="swiper-button-prev swiper-btn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- <div id="card2" class="container">
+            
+            <div class="portfolio_card GD">
+                <div class="portfolio_img">
+                    <img class="pf_img" src="img/w2.jpg" alt="">
+                </div>
+                <div class="pf_card_head">
+                    <h2>Healthcare for family's health</h2>
+                </div>
+                <div class="pf_card_desc">
+                    <P>Design a simple and functional Health website for Doctors, Nurses and other Workers in Health
+                        care
+                        industry.</P>
+                </div>
+                <div class="read_more"><a href="">Read more</a></div>
+            </div>
+            <div class="portfolio_card GD">
+                <div class="portfolio_img">
+                    <img class="pf_img" src="img/w2.jpg" alt="">
+                </div>
+                <div class="pf_card_head">
+                    <h2>Healthcare for family's health</h2>
+                </div>
+                <div class="pf_card_desc">
+                    <P>Design a simple and functional Health website for Doctors, Nurses and other Workers in Health
+                        care
+                        industry.</P>
+                </div>
+                <div class="read_more"><a href="">Read more</a></div>
+            </div>
+            <div class="portfolio_card GD">
+                <div class="portfolio_img">
+                    <img class="pf_img" src="img/w2.jpg" alt="">
+                </div>
+                <div class="pf_card_head">
+                    <h2>Healthcare for family's health</h2>
+                </div>
+                <div class="pf_card_desc">
+                    <P>Design a simple and functional Health website for Doctors, Nurses and other Workers in Health
+                        care
+                        industry.</P>
+                </div>
+                <div class="read_more"><a href="">Read more</a></div>
+            </div>
+            <div class="portfolio_card web">
+                <div class="portfolio_img">
+                    <img class="pf_img" src="img/u2.jpg" alt="">
+                </div>
+                <div class="pf_card_head">
+                    <h2>Translater apps</h2>
+                </div>
+                <div class="pf_card_desc">
+                    <P>I used to design translation apps using professional translation tools and I am really confident
+                        in
+                        my work. I will try my best to provide the best translation for you.</P>
+                </div>
+                <div class="read_more"><a href="">Read more</a></div>
+            </div>
+            <div class="portfolio_card web">
+                <div class="portfolio_img">
+                    <img class="pf_img" src="img/u2.jpg" alt="">
+                </div>
+                <div class="pf_card_head">
+                    <h2>Translater apps</h2>
+                </div>
+                <div class="pf_card_desc">
+                    <P>I used to design translation apps using professional translation tools and I am really confident
+                        in
+                        my work. I will try my best to provide the best translation for you.</P>
+                </div>
+                <div class="read_more"><a href="">Read more</a></div>
+            </div>
+            <div class="portfolio_card web">
+                <div class="portfolio_img">
+                    <img class="pf_img" src="img/u2.jpg" alt="">
+                </div>
+                <div class="pf_card_head">
+                    <h2>Translater apps</h2>
+                </div>
+                <div class="pf_card_desc">
+                    <P>I used to design translation apps using professional translation tools and I am really confident
+                        in
+                        my work. I will try my best to provide the best translation for you.</P>
+                </div>
+                <div class="read_more"><a href="">Read more</a></div>
+            </div>
+
+            <div class="portfolio_card UI">
+                <div class="portfolio_img">
+                    <img class="pf_img" src="img/u3.jpg" alt="">
+                </div>
+                <div class="pf_card_head">
+                    <h2>login/signup page</h2>
+                </div>
+                <div class="pf_card_desc">
+                    <P>I have experience in designing a login page for a mobile application. I would use the icons and
+                        colors of company to design the login page, and make it look professional.</P>
+                </div>
+                <div class="read_more"><a href="">Read more</a></div>
+            </div>
+            <div class="portfolio_card UI">
+                <div class="portfolio_img">
+                    <img class="pf_img" src="img/u3.jpg" alt="">
+                </div>
+                <div class="pf_card_head">
+                    <h2>login/signup page</h2>
+                </div>
+                <div class="pf_card_desc">
+                    <P>I have experience in designing a login page for a mobile application. I would use the icons and
+                        colors of company to design the login page, and make it look professional.</P>
+                </div>
+                <div class="read_more"><a href="">Read more</a></div>
+            </div>
+            <div class="portfolio_card UI">
+                <div class="portfolio_img">
+                    <img class="pf_img" src="img/u3.jpg" alt="">
+                </div>
+                <div class="pf_card_head">
+                    <h2>login/signup page</h2>
+                </div>
+                <div class="pf_card_desc">
+                    <P>I have experience in designing a login page for a mobile application. I would use the icons and
+                        colors of company to design the login page, and make it look professional.</P>
+                </div>
+                <div class="read_more"><a href="">Read more</a></div>
+            </div>
+        </div> -->
+        <!-- end of portfolio-card  -->
+    </div>
+    <!-- portfolio end -->
+
+    <!-- Gallery start  -->
+    <div id="gallery">
+        <div class="gallery_header">
+            <h1>My Gallery</h1>
+        </div>
+        <!-- <div class="container">
+        <div class="tabs">
+            <ul>
+                <li><a href="#" class="btn" data-filter="all">All</a></li>
+                <li><a href="#" class="btn" data-filter="UI">UI/UX</a></li>
+                <li><a href="#" class="btn" data-filter="GD">Graphic Designs</a></li>
+                <li><a href="#" class="btn" data-filter="web">Web Design</a></li>
+            </ul>
+        </div> -->
+        <div class="box" id="store-items">
+            <div class="store-item">
+                <img src="img/Gallery-img/g7.webp" class="store-img " alt="">
+                <div class="layer">
+                    <h3>World No Tobacco Day</h3>
+                    <a href="https://www.behance.net/gallery/152390539/World-No-Tobacco-Day" target="_blank"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="store-item">
+                <img src="img/Gallery-img/u1.webp" class="store-img " alt="">
+                <div class="layer">
+                    <h3>Jumma Mubarak</h3>
+                    <a href="https://www.behance.net/gallery/156439827/Jumma-Mubarak" target="_blank"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="store-item">
+                <img src="img/Gallery-img/w1.webp" class="store-img " alt="">
+                <div class="layer">
+                    <h3>Healthcare for family's health</h3>
+                    <a href="https://www.behance.net/gallery/159910123/Healthcare-for-familys-health" target="_blank"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="store-item">
+                <img src="img/Gallery-img/g2.webp" class="store-img " alt="">
+                <div class="layer">
+                    <h3>10th September World Aid Day</h3>
+                    <a href="https://www.behance.net/gallery/152348159/10th-September-World-Aid-Day" target="_blank"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="store-item">
+                <img src="img/Gallery-img/u2.webp" class="store-img " alt="">
+                <div class="layer">
+                    <h3>Translater Mobile apps</h3>
+                    <a href="https://www.behance.net/gallery/159912101/Translater-Mobile-apps" target="_blank"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="store-item">
+                <img src="img/Gallery-img/w2.webp" class="store-img " alt="">
+                <div class="layer">
+                    <h3>Healthcare for family's health</h3>
+                    <a href="https://www.behance.net/gallery/159910123/Healthcare-for-familys-health" target="_blank"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="store-item">
+                <img src="img/Gallery-img/g3.webp" class="store-img " alt="">
+                <div class="layer">
+                    <h3>Chili Reaper Buns Barger</h3>
+                    <a href="https://www.behance.net/gallery/152348793/Chili-Reaper-Buns-Barger" target="_blank"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="store-item">
+                <img src="img/Gallery-img/u3.webp" class="store-img " alt="">
+                <div class="layer">
+                    <h3>UI/UX Desige</h3>
+                    <a href="https://www.behance.net/gallery/152868803/UIUX-Desige" target="_blank"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="store-item">
+                <img src="img/Gallery-img/w3.webp" class="store-img " alt="">
+                <div class="layer">
+                    <h3>UET Peshawar UI/UX Design</h3>
+                    <a href="https://www.behance.net/gallery/165405635/UET-Peshawar-UIUX-Design?" target="_blank"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="store-item">
+                <img src="img/Gallery-img/g13.webp" class="store-img " alt="">
+                <div class="layer">
+                    <h3>Business Cards</h3>
+                    <a href="https://www.behance.net/gallery/165394435/Business-Cards" target="_blank"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="store-item">
+                <img src="img/Gallery-img/g8.webp" class="store-img " alt="">
+                <div class="layer">
+                    <h3>Youm-e-Takbir</h3>
+                    <a href="https://www.behance.net/gallery/165393675/Youm-e-Takbir?share=1" target="_blank"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="store-item">
+                <img src="img/Gallery-img/g9.webp" class="store-img " alt="">
+                <div class="layer">
+                    <h3>Congratulation to Pakistan</h3>
+                    <a href="https://www.behance.net/gallery/152394333/Congratulation-to-Pakistan" target="_blank"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="store-item">
+                <img src="img/Gallery-img/g10.webp" class="store-img " alt="">
+                <div class="layer">
+                    <h3>Color Theory in Brand</h3>
+                    <a href="https://www.behance.net/gallery/159907779/color-theory-in-brand" target="_blank"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="store-item">
+                <img src="img/Gallery-img/g12.webp" class="store-img " alt="">
+                <div class="layer">
+                    <h3>Gym & Fitness Banner & Posts</h3>
+                    <a href="https://www.behance.net/gallery/165394741/gym-and-fitness-banner-and-posts"
+                        target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="store-item">
+                <img src="img/Gallery-img/g16.webp" class="store-img " alt="">
+                <div class="layer">
+                    <h3>Business card</h3>
+                    <a href="https://www.behance.net/gallery/165394435/Business-Cards" target="_blank"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="store-item">
+                <img src="img/Gallery-img/g14.webp" class="store-img " alt="">
+                <div class="layer">
+                    <h3>Gym & Fitness Banner & Posts</h3>
+                    <a href="https://www.behance.net/gallery/165394741/gym-and-fitness-banner-and-posts"
+                        target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="store-item">
+                <img src="img/Gallery-img/g5.webp" class="store-img " alt="">
+                <div class="layer">
+                    <h3>Types of Contrast in Graphic Design</h3>
+                    <a href="https://www.behance.net/gallery/159009873/Types-of-contrast-in-Graphic-Design"
+                        target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="store-item">
+                <img src="img/Gallery-img/g1.webp" class="store-img " alt="">
+                <div class="layer">
+                    <h3>Independence Day of Pakistan 14 August 1947</h3>
+                    <a href="https://www.behance.net/gallery/152389075/Independence-Day-of-Pakistan-14-August-1947"
+                        target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery  end -->
+
+    <footer id="contact">
+        <div class="container footer">
+            <div class="footer_detail">
+                <h2>About Us</h2>
+                <p>I am a UI/UX and front-end developer who is passionate about creating beautiful experiences for
+                    users.
+                </p>
+            </div>
+            <div class="footer_detail icoon">
+                <h2>Contact Us</h2>
+                <div class="contact_icon address">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>University of Agriculture, New Boys Star Hostel, Peshawar, Khyber Pakhtunkhwa</p>
+                </div>
+                <div class="contact_icon phone ">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>(+92-348-9072216)</p>
+                </div>
+                <div class="contact_icon gmail ">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>salmanmsd11@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer_detail">
+                <h2>Stay Connected</h2>
+                <div class="social_icon">
+                    <a href="https://www.facebook.com/salo.msd" target="_blank"><i
+                            class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://twitter.com/salmanmsd0?t=HjuThBLbt6nzO7KQbQTEMQ&s=09" target="_blank"><i
+                            class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.instagram.com/salman_mk007/" target="_blank"><i
+                            class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/salman-mk-975102240/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/@msshifu" target="_blank"><i
+                            class="fa-brands fa-square-youtube"></i></a>
+                    <a href="https://www.behance.net/salmanmsd?tracking_source=search_users|salman%20msd"
+                        target="_blank"><i class="fa-brands fa-square-behance"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="copy_right">
+            <p>© COPY RIGHTS 2022 - Designed by Muhammad Salman - All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Jquery  -->
+    <script src="js/jquery.js"></script>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    
+    
+    <!-- scrollreveal JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/scrollreveal.js"></script>
+
+    <!-- typed JS -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <script src="js/index.js"></script>
+    <!-- Portfolio card slider JS -->
+    <script src="js/slide.js"></script>
+
+
+
+</body>
+
+</html>

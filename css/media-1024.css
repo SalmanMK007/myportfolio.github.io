@@ -1,0 +1,129 @@
+@media screen and (max-width:1024px){
+
+	h1 {
+		font-size: 27px;
+		padding-bottom: 20px;
+		text-underline-offset: 10px;
+	}
+	
+	#hero li{
+		font-size: 12px;
+		padding: 10px 14px;
+	}
+	.main_text h3 {
+		font-size: 64px;
+		font-weight:400 ;
+	}
+	h5{
+		width: 80px;
+	}
+	.ui_line {
+		font-weight: 400;
+		font-size: 25px;
+		gap: 20px;
+	}
+	.salman_img2 {
+		width: 300px;
+	}
+
+	.widget {
+		padding: 7px 0;
+		max-width: 530px;
+		width: 90%;
+		margin-top: -30px;
+	}
+	.widget_item h2 {
+		font-size: 1.2rem;
+	}
+	.widget_item p {
+		font-size: 0.8rem;
+	}
+	.about_me {
+		padding-top: 70px;
+		margin-top: -32px;
+	}
+	.aboutimg img{
+		width: 70%;
+	}
+	.about_text{
+		width: 800px;
+	}
+	.about_text h2 {
+		font-size: 25px;
+	}
+
+	.about_text p {
+		font-size: 11px;
+		padding: 10px 18px;
+	}
+	.btn {
+		padding: 4px 10px;
+		font-size: 10px;
+	}
+
+	.services{
+		height: 480px;		
+	}
+	
+	.services_card {
+		flex-basis: 30%;
+	}
+	.services_card h2 {
+		font-size: 25px;
+		padding: 15px 0px 15px 0px;
+	}
+	
+	.services_card p {
+		font-size: 10px;
+	}
+	.icon{
+		width: 50%;
+	}
+
+	.portfolio_header{
+		padding-bottom: 15px;
+	}
+	.tabs ul{
+		gap: 0;
+		font-size: 12px;
+	}
+
+	.portfolio_card{
+		flex-basis: 30%;
+		max-width: 370px;
+	}
+	.portfolio_card h2{
+	font-size: 17px;
+	font-weight: 600;
+	}
+	.pf_card_head{
+		margin: 5px 0px;
+	}
+	.pf_card_desc{
+		font-size: 10px;
+		margin: 0 5px;
+	}
+
+	.footer p{
+		font-size: 10px;
+	}
+	
+	.footer_detail{
+		flex-basis: 29%;
+	}
+	
+	.footer_detail h2{
+		padding-bottom: 30px;
+		font-size: 17px;
+	}
+	.contact_icon i{
+		font-size: 24px;
+		padding:0px 15px 0 0;	
+	}
+	.social_icon{
+		font-size: 24px;
+	}
+	.copy_right{
+		font-size: 10px;
+	}
+}
